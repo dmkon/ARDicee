@@ -32,9 +32,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         //Assign cube to node
         node.geometry = cube
-        
         sceneView.scene.rootNode.addChildNode(node)
-        
         sceneView.autoenablesDefaultLighting = true
         
 //        // Create a new scene
